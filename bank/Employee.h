@@ -12,7 +12,7 @@ protected:
 
 public:
     Employee() {}
-
+    //iojki
     Employee(int id, string name, string password, double salary)
         : Person(id, name, password) {
         setSalary(salary);
